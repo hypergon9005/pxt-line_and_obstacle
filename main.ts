@@ -1,4 +1,5 @@
 basic.forever(function () {
+    // comment goes here
     if (maqueen.sensor(PingUnit.Centimeters) < 15 && maqueen.sensor(PingUnit.Centimeters) != 0) {
         maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CW, 50)
 maqueen.MotorRun(maqueen.aMotors.M1, maqueen.Dir.CCW, 75)
